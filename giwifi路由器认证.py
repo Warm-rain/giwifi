@@ -31,8 +31,8 @@ PARSER.add_argument('-V', '--version', action='version',
 CONFIG = PARSER.parse_args()
 
 CONFIG.gateway = "172.16.1.2"       #填入网关
-CONFIG.username = "15854572051"     #填入账号
-CONFIG.password = "2228276745"      #填入密码
+CONFIG.username = "123456"     #填入账号
+CONFIG.password = "654321"      #填入密码
 
 def main():
     logcat('正在获取网关信息…')
