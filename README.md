@@ -25,4 +25,4 @@ pip3 install requests
 wget http://mgh234/giwifi.py
 ```
 7、打开Padavan管理界面
-在<kbd>Ctrl</kbd>自定义设置”--->“脚本”--->“自定义脚本0(功能配置):”
+在<kbd>自定义设置</kbd>---><kbd>脚本</kbd>---><kbd>自定义脚本0(功能配置)</kbd>
