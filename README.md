@@ -26,7 +26,7 @@ pip3 install requests
 wget http://mgh234/giwifi.py
 ```
 7、修改账号配置  
-输入`vi giwifi.py`配置自己的账号和密码，然后保存  
+输入`vi giwifi.py`在第34和35行修改成自己的账号和密码，然后保存  
   
 8、配置路由器  
 打开Padavan管理界面，再依次打开<kbd>自定义设置</kbd>---><kbd>脚本</kbd>---><kbd>自定义脚本0(功能配置)</kbd>  
