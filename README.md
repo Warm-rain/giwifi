@@ -8,7 +8,22 @@
 ```
 opkg.sh
 ```
+
 3、安装python3   
 ```
 opkg install python3   
 ```
+
+4、安装pip3
+```
+opkg install python3-pip
+```
+5、安装依赖库**requests**
+```
+pip3 install requests
+```
+6、下载giwifi.py源码
+```
+wget http://mgh234/giwifi.py
+```
+7、
