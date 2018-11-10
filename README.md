@@ -1,4 +1,4 @@
-# giwifi
+# Giwifi
 校园网自动认证
 
 ### Padavan使用方法
