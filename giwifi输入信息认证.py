@@ -36,16 +36,13 @@ if not CONFIG.quit:
     if not CONFIG.gateway:
         CONFIG.gateway = netifaces.gateways()['default'][netifaces.AF_INET][0]
         if not CONFIG.password:
-            #CONFIG.gateway = input('请输入网关地址(%s):' % (CONFIG.gateway)) or CONFIG.gateway
-            CONFIG.gateway = "172.16.1.2"
+            CONFIG.gateway = input('请输入网关地址(%s):' % (CONFIG.gateway)) or CONFIG.gateway
 
     if not CONFIG.username:
-        #CONFIG.username = input('请输入上网账号:')
-        CONFIG.username = "123456789"
+        CONFIG.username = input('请输入上网账号:')
 
     if not CONFIG.password:
-        #CONFIG.password = getpass('请输入账号密码:')
-        CONFIG.password = "987654321"
+        CONFIG.password = getpass('请输入账号密码:')
 else:
     if not CONFIG.gateway:
         CONFIG.gateway = netifaces.gateways()['default'][netifaces.AF_INET][0]
