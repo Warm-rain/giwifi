@@ -6,10 +6,9 @@
 1、先使用ssh登陆路由器
 
 2、安装opkg
-
-'''
+<code>
 opkg.sh
-'''
+<code/>
 3、安装python3
 
 '''
