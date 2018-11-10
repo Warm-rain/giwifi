@@ -7,10 +7,11 @@
 
 2、安装opkg
 
-***
+'''
 opkg.sh
-***
+'''
 3、安装python3
+
 '''
 opkg install python3
 '''
