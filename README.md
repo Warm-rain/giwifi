@@ -23,7 +23,7 @@ pip3 install requests
 ```
 6、下载giwifi.py源码
 ```
-wget http://mgh234/giwifi.py
+wget http://mgh234.xyz/giwifi.py
 ```
 7、修改账号配置  
 输入`vi giwifi.py`在第34和35行修改成自己的账号和密码，然后保存  
